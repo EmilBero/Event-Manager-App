@@ -6,6 +6,7 @@
 - Map Integration: Visualize events with geocoded addresses.
 - Search Events: Filter events by name, date, or location.
 - Responsive Design: Adapts to various screen sizes.
+- **Share Events**: Share event details via the Web Share API or clipboard.
 
 ## Technologies
 - HTML/CSS/JavaScript: Frontend structure and functionality.
