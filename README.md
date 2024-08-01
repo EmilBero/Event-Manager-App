@@ -1,5 +1,5 @@
 # Event-Manager-App
-an application for managing events with details like name, date, time, location, and address. It features a map for visualizing events and supports responsive design.
+- An application for managing events with details like name, date, time, location, and address. It features a map for visualizing events and supports responsive design.
 
 ## Features
 - Add, Edit, Delete Events: Manage event details and store them locally.
