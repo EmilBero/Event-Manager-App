@@ -16,6 +16,7 @@ body {
 }
 
 footer {
+    height: 5%;
     background-color: #ECF0F1;
     color: #4A4A4A;
     padding: 20px 0;
@@ -109,6 +110,7 @@ button:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 20px;
+    padding-bottom: 5%;
 }
 
 .event-item {
@@ -245,6 +247,9 @@ button:hover {
     #map {
         height: 300px; /* Reduce the height of the map */
     }
+    #event-list{
+        padding-bottom: 10%;
+    }
 }
 
 @media (max-width: 550px) {
@@ -264,5 +269,8 @@ button:hover {
 
     h1 {
         font-size: 2em; /* Reduce font size on smaller screens */
+    }
+    #event-list{
+        padding-bottom: 10%;
     }
 }
