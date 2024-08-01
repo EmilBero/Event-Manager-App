@@ -15,15 +15,25 @@ body {
 }
 
 footer {
-    background-color: #ECF0F1;
-    color: #4A4A4A;
-    padding: 10px 0;
+    background-color: #ECF0F1; /* Light grey background */
+    color: #4A4A4A; /* Dark grey text color */
+    padding: 20px 0; /* Increase padding for more space */
     text-align: center;
     font-size: 14px;
-    position: fixed;
-    width: 100%; 
-    bottom: 0; 
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    font-family: 'Roboto', sans-serif; /* Use a clean, modern font */
   }
+  footer a {
+    color: #007BFF; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: 500; /* Semi-bold */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
 
 /* Container styling */
 .container {
@@ -250,5 +260,12 @@ button:hover {
 
     h1 {
         font-size: 2em; /* Reduce font size on smaller screens */
+    }
+}
+
+@media (min-height: 1080px){
+    footer {
+        position: absolute;
+        bottom: 0;
     }
 }
